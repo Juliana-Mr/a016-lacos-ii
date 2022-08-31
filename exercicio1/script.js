@@ -5,3 +5,11 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array[i].length; j++) {
+        // console.log(i + 1 + '-' + array[i])
+        // OU
+        console.log(`jogador ${i + 1} : ${array[i]} `)
+    }
+}  
